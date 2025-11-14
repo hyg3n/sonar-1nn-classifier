@@ -34,9 +34,10 @@ Source: UCI Machine Learning Repository.
 ### **1. Custom Minkowski Distance Function**
 Distance is computed manually using:
 
-\[
-d(x, y) = \left(\sum |x_i - y_i|^{q}\right)^{1/q}
-\]
+$$
+d(x, y) = \left( \sum_i |x_i - y_i|^{q} \right)^{1/q}
+$$
+
 
 ### **2. Manual 1-NN Classifier**
 For each test sample:
